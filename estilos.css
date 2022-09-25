@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(83, 83, 83);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    height: 550px;
+    position: absolute;
+}
+.formulario{
+    width: 400px;
+    position: absolute;
+    background-color: rgb(34, 34, 34);
+    /* background-image: url('pattern22.jpg');
+    background-size: 30%; */
+    color: #fff;
+    border: 1px solid #fff9f9;
+    border-radius: 10px;
+    padding: 30px 60px;
+    top: 290px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.319);
+}
+.formulario input,label,button{
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+}
+.formulario input{
+    height: 40px;
+    border: 1px solid #898989;
+    border-radius: 10px;
+    padding: 0 8px;
+}
+.formulario button{
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    height: 40px;
+    background-color: #161616;
+    box-shadow: 1px 1px 2px #000;
+    color: #fff;
+}
+.formulario button:hover{
+    background-color: yellow;
+    color: #161616;
+}
+
+#monster{
+    max-width: 300px;
+}
+/*  */
+
+.formulario h6 {
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.formulario :link{
+    text-decoration: none;
+    font-size: large;
+    font-weight: 200;
+    color: aqua;
+}
+
+.formulario :visited{
+    color: rgb(255, 188, 101);
+}
